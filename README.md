@@ -17,8 +17,7 @@ The target model performance was 75% accuracy, which the model fell just short o
 * Categories with low values in columns such as “APPLICATION_TYPE” and “CLASSIFICATION” were lumped into and “Other” category in order to work towards a nice easy to read data frame. OneHotEncoder was then implemented to make split these columns apart to columns of their respective categories which were then binary. 
 
 ![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/merged_df.png)
-
-Pic
+The initial data frame consisted of over 34,000 rows and 39 columns
 
 ### Compiling, Training, and Evaluating the Model
 
@@ -27,6 +26,8 @@ Pic
 * Adding additional layers and neurons to the model at times hurt the accuracy (probably due to overfitting) while at other times offered no significant improvement. Our original model consisted of 2 layers with 80 and 30 neurons, respectively. This was increased to a most of 3 layers with 100, 60 and 30 neurons. The highest accuracy came from using 2 layers with 80 and 40 neurons. 
 
 * The activation function was also changed from Rectified Linear Unit (ReLU) to a sigmoid function to increase the model’s accuracy. The ReLU function works well with non-linear data but in this case of a binary target, the sigmoid function performed much better. 
+
+
 
 ## Summary
 
