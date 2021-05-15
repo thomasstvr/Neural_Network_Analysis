@@ -33,6 +33,11 @@ Here you can see the accuracy of the original (2 layers with 80 and 30 neurons) 
 ![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/extra_layer_neurons.png)
 The accuracy of the model dropped when using 3 layers consisting of 100, 60 and 30 neurons.
 
+![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/no_affiliation.png)
+Accuracy with affiliation data removed.
+
+![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/no_application.png)
+
 ## Summary
 
 When working with neural networks bigger is not always better. Large networks can overfit to the training data which makes them perform poorly on any other set of data. This is shown with the relatively simple network of 2 layers consisting of 80 and 40 neurons. The rule of thumb using 2-3 times the amount of neurons as features as well as anything can be solved with 2-3 layers has been held true in this case.
