@@ -37,6 +37,9 @@ The accuracy of the model dropped when using 3 layers consisting of 100, 60 and 
 Accuracy with affiliation data removed.
 
 ![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/no_application.png)
+With no application data the accuracy was drastically decrease even at 500 training epochs.
+
+![](
 
 ## Summary
 
