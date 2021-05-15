@@ -27,7 +27,11 @@ The initial data frame consisted of over 34,000 rows and 39 columns
 
 * The activation function was also changed from Rectified Linear Unit (ReLU) to a sigmoid function to increase the model’s accuracy. The ReLU function works well with non-linear data but in this case of a binary target, the sigmoid function performed much better. 
 
+![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/original.png)
+Here you can see the accuracy of the original (2 layers with 80 and 30 neurons) model with the full data frame intact.
 
+![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/extra_layer_neurons.png)
+The accuracy of the model dropped when using 3 layers consisting of 100, 60 and 30 neurons.
 
 ## Summary
 
