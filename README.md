@@ -14,7 +14,7 @@ The target model performance was 75% accuracy, which the model fell just short o
 
 * Variables which add no value to the data (such as “EIN” and “NAME”) were immediately removed so as not to clutter the model with unneeded information. When optimizing the model, many more variables were removed to increase accuracy but there will be more on that later.
 
-* Categories with low values in columns such as “APPLICATION_TYPE” and “CLASSIFICATION” were lumped into an “Other” category in order to work towards a nice easy to read data frame. OneHotEncoder was then implemented to make split these columns apart to columns of their respective categories which were then binary. 
+* Categories with low values in columns such as “APPLICATION_TYPE” and “CLASSIFICATION” were lumped into an “Other” category in order to work towards a nice easy to read data frame. OneHotEncoder was then implemented to split these columns into columns of their respective binary categories. 
 
 ![]( https://github.com/thomasstvr/Neural_Network_Charity_Analysis/blob/main/Resources/merged_df.png)
 The initial data frame consisted of over 34,000 rows and 39 columns
